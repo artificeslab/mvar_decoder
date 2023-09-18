@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?InfiniteVariantTool version="0.5.0.0"?>
+<struct>
+  <!-- OPTIONS -->
+  <struct id="1">
+    <struct id="0">
+      <!-- Map ID (Void) -->
+      <int32 id="0">426470249</int32>
+    </struct>
+    <struct id="1">
+      <struct id="0" /> <!--!unknown-->
+      <struct id="1" /> <!--!unknown-->
+    </struct>
+    <struct id="21" /> <!--!unknown-->
+    <struct id="28"> <!--!unknown ID-->
+      <int32 id="0">1120495519</int32> <!--!unknown ID-->
+    </struct>
+    <struct id="29">
+      <int32 id="0">-205205340</int32> <!--!unknown ID-->
+    </struct>
+    <struct id="30" /> <!--!unknown-->
+    <struct id="31" /> <!--!unknown-->
+    <struct id="33" /> <!--!unknown-->
+    <struct id="34" /> <!--Map FX-->
+
+    <!-- MAP OPTIONS (Integer Numbers are Array Indexes) -->
+    <struct id="39">
+      <!-- Sunlight -->
+      <float id="0">5</float> <!--Sunlight Intensity-->
+      <struct id="2"> <!--Sun Position-->
+        <float id="0">230</float> <!--Yaw-->
+        <float id="1">65</float> <!--Pitch-->
+      </struct>
+      <!-- Light Bounce -->
+      <float id="3">1</float> <!--Light Bounce Intensity-->
+      <!-- Sky Light -->
+      <float id="5">1</float> <!--Sky Light Intensity-->
+      <!-- Wind Direction -->
+      <struct id="9">
+        <float id="1">90</float> <!--Pitch-->
+      </struct>
+      <float id="10">1</float> <!--Wind Speed-->
+      <!-- Volumetric Fog -->
+      <bool id="13">true</bool> <!--Volumetric Fog Enabled-->
+      <float id="14">0.01</float> <!--Volumetric Fog Density-->
+      <float id="16">0.1</float> <!--Volumetric Fog Near Range-->
+      <float id="17">60</float> <!--Volumetric Fog Far Range-->
+      <!-- Sky Rendering -->
+      <float id="23">22</float> <!--Sky Rendering Sky Intensity-->
+      <float id="24">150</float> <!--Sky Rendering Sun Distance-->
+      <float id="27">1</float> <!--Sky Rendering Sky Tint Intensity-->
+      <float id="30">0.06</float> <!--Sky Rendering Sun Tint Intensity-->
+      <!-- Atmospheric Fog -->
+      <float id="31">0.5</float> <!--Atmospheric Fog Offset-->
+      <float id="32">200</float> <!--Atmospheric Fog Near Falloff-->
+      <float id="33">1</float> <!--Atmospheric Fog Intensity-->
+      <float id="34">25</float> <!--Atmospheric Fog Depth Scale-->
+      <float id="35">1</float> <!--Atmospheric Fog Falloff Up-->
+      <float id="36">1</float> <!--Atmospheric Fog Falloff Down-->
+      <float id="37">3</float> <!--Sky Fog Intensity-->
+      <float id="38">0.5</float> <!--Inscattering-->
+    </struct>
+    <!-- Ambient Sound -->
+    <struct id="41">
+      <struct id="0" /> <!--Primary Sound ID-->
+      <struct id="1" /> <!--Secondary Sound ID-->
+      <struct id="2" /> <!--Reverb-->
+      <struct id="3" /> <!--Audio Effect ID-->
+      <bool id="5">true</bool> <!--!unknown-->
+    </struct>
+    <!--UKNOWN-->
+    <list id="47" type="int32">
+      <int32>1</int32>
+      <int32>1</int32>
+      <int32>1</int32>
+      <int32>0</int32>
+      <int32>1</int32>
+    </list>
+  </struct>
+  <!-- Objects -->
+  <list id="3" type="struct">
+    <struct>
+      <!-- Object Type ID -->
+      <struct id="2">
+        <int32 id="0">1471536073</int32>
+      </struct>
+      <!-- Position (In-game/10) -->
+      <struct id="3">
+        <float id="0">141.83534</float>
+        <float id="1">0.5812978</float>
+        <float id="2">69.20145</float>
+      </struct>
+      <!-- Rotation -->
+      <struct id="4">
+        <float id="0" /> <!--Up X-->
+        <float id="1" /> <!--Up Y-->
+        <float id="2">1</float> <!--Up Z-->
+      </struct>
+      <struct id="5">
+        <float id="0">-1</float> <!--Forward X-->
+        <float id="1" /> <!--Forward Y-->
+        <float id="2" /> <!--Forward Z-->
+      </struct>
+      <uint8 id="7">21</uint8> <!--!unknown (Changes from 21 when static, 1 when dynamic-->
+      <struct id="8">
+        <list id="0" type="struct">
+          <struct>
+            <int32 id="1">2</int32> <!--Physics Type (Normal, Fixed, Phased-->
+            <struct id="13" /> <!--Material Properties-->
+          </struct>
+        </list>
+        <list id="23" type="struct"> <!--Only when static-->
+          <struct>
+            <!--Scale-->
+            <struct id="0">
+              <float id="0">1</float> <!--Scale X-->
+              <float id="1">1</float> <!--Scale Y-->
+              <float id="2">1</float> <!--Scale Z-->
+            </struct>
+          </struct>
+        </list>
+        <list id="24" type="struct">
+          <struct>
+            <int32 id="0">2</int32> <!--!unknown (1 when Dynamic)-->
+            <struct id="1">
+              <int32 id="0">1120495519</int32> <!--!unknown ID-->
+            </struct>
+            <int32 id="2">1</int32> <!--Static/Dynamic (Potentially)-->
+          </struct>
+        </list>
+      </struct>
+      <struct id="9" /> <!--!unknown-->
+      <struct id="10" /> <!--!unknown-->
+    </struct>
+  </list>
+  <!-- Folder Structure -->
+  <struct id="6">
+    <list id="0" type="struct"> <!--Folders-->
+      <struct>
+        <uint32 id="0">71</uint32> <!--Folder/Object ID-->
+        <wstring id="2">Root</wstring> <!--Folder Name-->
+        <struct id="5"> <!--!unknown-->
+          <int32 id="0">114233605</int32> <!--!unknown ID-->
+        </struct>
+      </struct>
+      <struct>
+        <uint32 id="0">111</uint32> <!--Folder/Object ID-->
+        <list id="1" type="struct"> <!--Subfolders-->
+          <struct>
+            <uint32 id="1">68</uint32> <!--Folder/Object ID-->
+            <wstring id="2">Sub1</wstring> <!--Folder Name-->
+            <uint32 id="5">111</uint32> <!--Parent Folder ID-->
+            <uint32 id="6">4294967295</uint32> <!--!unknown-->
+            <struct id="9" /> <!--!unknown-->
+          </struct>
+          <struct>
+            <uint32 id="1">67</uint32> <!--Folder/Object ID-->
+            <wstring id="2">Sub2</wstring> <!--Folder Name-->
+            <uint32 id="5">111</uint32> <!--Parent Folder ID-->
+            <uint32 id="6">4294967295</uint32> <!--!unknown -->
+            <list id="7" type="struct"> <!--Objects-->
+              <struct>
+                <int32 id="0">1</int32>
+                <uint32 id="1">66</uint32> <!--Folder/Object ID-->
+                <uint32 id="5">111</uint32> <!--Root Level Folder ID-->
+                <uint32 id="6">67</uint32> <!--Parent Folder ID-->
+                <uint16 id="8">0</uint16> <!--!unknown-->
+                <struct id="9">
+                  <int32 id="0">-663433616</int32> <!--!unknown-->
+                </struct>
+                <uint32 id="10">0</uint32> <!--!unknown-->
+              </struct>
+            </list>
+            <struct id="9" /> <!--!unknown-->
+          </struct>
+        </list>
+        <wstring id="2">Base1</wstring> <!--Folder Name-->
+        <struct id="5" /> <!--!unknown-->
+      </struct>
+    </list>
+    <uint32 id="1">111</uint32> <!--TODO: Determine whether this is the highest indexed folder/object or the root folder-->
+    <!--Available Object/Folder IDs (from deleted objects/folders)-->
+    <list id="3" type="uint32">
+      <uint32>35</uint32>
+      <uint32>34</uint32>
+      <uint32>36</uint32>
+      <uint32>37</uint32>
+      <uint32>11</uint32>
+      <uint32>9</uint32>
+      <uint32>10</uint32>
+      <uint32>12</uint32>
+      <uint32>13</uint32>
+      <uint32>2</uint32>
+      <uint32>30</uint32>
+      <uint32>15</uint32>
+      <uint32>16</uint32>
+      <uint32>17</uint32>
+      <uint32>18</uint32>
+      <uint32>19</uint32>
+      <uint32>20</uint32>
+      <uint32>23</uint32>
+      <uint32>31</uint32>
+      <uint32>24</uint32>
+      <uint32>32</uint32>
+      <uint32>25</uint32>
+      <uint32>26</uint32>
+      <uint32>27</uint32>
+      <uint32>43</uint32>
+      <uint32>28</uint32>
+      <uint32>29</uint32>
+      <uint32>51</uint32>
+      <uint32>76</uint32>
+      <uint32>38</uint32>
+      <uint32>39</uint32>
+      <uint32>112</uint32>
+      <uint32>113</uint32>
+      <uint32>42</uint32>
+      <uint32>114</uint32>
+      <uint32>3</uint32>
+      <uint32>47</uint32>
+      <uint32>83</uint32>
+      <uint32>48</uint32>
+      <uint32>49</uint32>
+      <uint32>50</uint32>
+      <uint32>14</uint32>
+      <uint32>89</uint32>
+      <uint32>73</uint32>
+      <uint32>93</uint32>
+      <uint32>70</uint32>
+      <uint32>74</uint32>
+      <uint32>75</uint32>
+      <uint32>78</uint32>
+      <uint32>97</uint32>
+      <uint32>79</uint32>
+      <uint32>80</uint32>
+      <uint32>81</uint32>
+      <uint32>82</uint32>
+      <uint32>85</uint32>
+      <uint32>22</uint32>
+      <uint32>87</uint32>
+      <uint32>88</uint32>
+      <uint32>101</uint32>
+      <uint32>90</uint32>
+      <uint32>91</uint32>
+      <uint32>92</uint32>
+      <uint32>94</uint32>
+      <uint32>95</uint32>
+      <uint32>96</uint32>
+      <uint32>98</uint32>
+      <uint32>108</uint32>
+      <uint32>103</uint32>
+      <uint32>106</uint32>
+      <uint32>99</uint32>
+      <uint32>21</uint32>
+      <uint32>45</uint32>
+      <uint32>40</uint32>
+      <uint32>41</uint32>
+      <uint32>44</uint32>
+      <uint32>107</uint32>
+      <uint32>105</uint32>
+      <uint32>100</uint32>
+      <uint32>109</uint32>
+      <uint32>110</uint32>
+      <uint32>1</uint32>
+      <uint32>4</uint32>
+      <uint32>0</uint32>
+      <uint32>102</uint32>
+      <uint32>52</uint32>
+      <uint32>72</uint32>
+      <uint32>5</uint32>
+      <uint32>8</uint32>
+      <uint32>104</uint32>
+      <uint32>69</uint32>
+      <uint32>46</uint32>
+      <uint32>84</uint32>
+      <uint32>33</uint32>
+      <uint32>86</uint32>
+      <uint32>77</uint32>
+      <uint32>54</uint32>
+      <uint32>6</uint32>
+      <uint32>55</uint32>
+      <uint32>7</uint32>
+      <uint32>53</uint32>
+      <uint32>56</uint32>
+      <uint32>57</uint32>
+      <uint32>58</uint32>
+      <uint32>59</uint32>
+      <uint32>60</uint32>
+      <uint32>61</uint32>
+      <uint32>62</uint32>
+      <uint32>63</uint32>
+      <uint32>64</uint32>
+      <uint32>65</uint32>
+    </list>
+  </struct>
+  <!-- Scripting Properties -->
+  <struct id="7" />
+  <!-- User Strings -->
+  <struct id="10">
+    <list id="1" type="wstring"> <!--User Strings wString-->
+      <wstring></wstring>
+    </list>
+    <list id="2" type="uint32"> <!--User Strings Free Indexes-->
+      <uint32>0</uint32>
+    </list>
+    <list id="3" type="uint16"> <!--User Strings Pointer Count-->
+      <uint16>0</uint16>
+    </list>
+  </struct>
+</struct>
