@@ -178,7 +178,7 @@
         <struct id="5" /> <!--!unknown-->
       </struct>
     </list>
-    <uint32 id="1">111</uint32> <!--TODO: Determine whether this is the highest indexed folder/object or the root folder-->
+    <uint32 id="1">111</uint32> <!--TODO: Determine whether this is the root folder-->
     <!--Available Object/Folder IDs (from deleted objects/folders)-->
     <list id="3" type="uint32">
       <uint32>35</uint32>
